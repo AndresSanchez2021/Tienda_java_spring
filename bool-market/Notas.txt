@@ -1,0 +1,25 @@
+
+---------------------------------------------
+    DOCS APPLICATION PROPERTIES
+---------------------------------------------
+
+https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
+
+
+---------------------------------------------
+    Respositorios Spring data operaciones DB
+---------------------------------------------
+
+    CrudRepository
+        -Operaciones crud
+    PagingAndSortingREpository
+        -Paginacion y ordenamiento
+    JPARepository
+        -Tareas especificas (guarda en memoria)
+
+
+
+---------------------------------------------
+    Querys con CrudRepository
+---------------------------------------------
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods
