@@ -19,7 +19,7 @@ public class Compra {
 
     private LocalDateTime fecha;
 
-    @Column(name = "medio-pago")
+    @Column(name = "medio_pago")
     private String medioPago;
 
     private String comentario;
@@ -30,7 +30,7 @@ public class Compra {
     @JoinColumn(name="id_cliente", insertable = false, updatable = false)
     private Cliente cliente;
 
-    @OneToMany(mappedBy = "compra")
+    @OneToMany(mappedBy = "compra", cascade={CascadeType.ALL})
     private List<ComprasProducto> productos;
 
 
